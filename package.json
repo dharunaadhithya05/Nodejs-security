@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-security-best-practices",
+  "version": "1.0.0",
+  "description": "Beginner-friendly Node.js and Express security best practices demo",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "security",
+    "cybersecurity"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dcrypt": "^0.0.2",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.5",
+    "helmet": "^8.3.0",
+    "joi": "^18.3.2",
+    "winston": "^3.19.0"
+  }
+}
